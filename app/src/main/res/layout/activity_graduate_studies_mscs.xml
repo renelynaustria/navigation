@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_mscs"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master of Science in Computer Science"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     Master of Science in Computer Science (MSCS) emphasizes comprehension and understanding of the principles and concepts needed for designing and formulating new tools for applications development as well as generating new knowledge in the field."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     Students entering this degree program must have completed undergraduate courses that provide the mathematical foundations for mathematical logic, calculus, discrete mathematics, data structures, computer programming and data organizations."
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

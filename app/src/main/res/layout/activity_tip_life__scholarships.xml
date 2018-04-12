@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.TipLife_Scholarships"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="onButtonClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scholarships"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp"/>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#f4f4f4">
+
+         <ExpandableListView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/lvExp"/>
+     </LinearLayout>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--first-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/yellow"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Engr. Demetrio A. Quirino, Jr. Scholarship Grant"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scholarship Grants for Engineering and Architecture available only at TIP
+For the following academic programs: ChE, CE, EE, ECE, ME, ENSE, ARCH, MarE, MarT (Manila only)"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total No. of Grantees: 50"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qualifications"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The high school graduate must:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- belong to the TOP 20 graduates of his batch as attested by the Principal; or"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- possess a General Average of at least 85% in fourth year high school with no grade of below 83% in any subject;"
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="- have not taken any course in college prior to the examination."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benefits and Allowances"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The scholar shall be entitled to the following benefits and allowances:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- No fees throughout the duration of his program of study*"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Semestral stipend of P15000.00 throughout his program of study**"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- One-time free two (2) sets of school uniforms and one (1) set of PE uniform"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Free use of textbooks"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:layout_marginTop="10dp"
+                android:text="***Subject to the Rules and Regulations on Scholarship and Grants/Discounts; Effective SY 2008-2009"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:layout_marginTop="10dp"
+                android:text="*Requirement to Maintain the Scholarship Grants"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="In order for the scholar to continue to enjoy the benifits of the scholarship, he shall maintain a Grade Point Average (GPA) of at least 1.75 with no grade in any subject below 2.25 every semester during the period of his scholarship. Further, he shall lose his scholarship if he commits any infraction of the provisions of the Student Manual."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <!--second-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/yellow"
+                >
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dr. Teresita U. Quirino"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-355dp"
+                    android:text="Scholarship Grant"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scholarship Grants for Education and Accountancy available only at TIP
+For the following academic programs: Accountancy and Education (QC only)"
+
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total No. of Grantees: 10"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qualifications"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The examinee must:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- belong to the TOP 20 graduates of his batch as attested by the Principal; or"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- possess a General Average of at least 85% in fourth year high school with no grade of below 83% in any subject;"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- have not taken any course in college prior to the examination."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- The scholars shall be determined through competitive examinations"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benefits and Allowances"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The scholar shall be entitled to the following benefits and allowances:"
+                android:textColor="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- No fees throughout the duration of his program of study*"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Semestral stipend of P15000.00 throughout his program of study**"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- One-time free two (2) sets of school uniforms and one (1) set of PE uniform"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Free use of textbooks"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:layout_marginTop="10dp"
+                android:text="***Subject to the Rules and Regulations on Scholarship and Grants/Discounts; Effective SY 2008-2009"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:layout_marginTop="10dp"
+                android:text="*Requirement to Maintain the Scholarship Grants"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="In order for the scholar to continue to enjoy the benefits of the scholarship, he shall maintain a Grade Point Average (GPA) of at least 1.75 with no grade in any subject below 2.25 every semester during the period of his scholarship. Further, he shall lose his scholarship if he commits any infraction of the provisions of the Student Manual"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <!--third-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/yellow"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other Scholarship Grants"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grants for Valedictorians"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="-Free tuition and basic miscellaneous fees throughout the program*"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Free use of textbooks"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- One-time free two(2) sets of school uniform and one (1) set of PE uniform"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Semestral stipend of Php 5,000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grants for Salutatorians"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="-Free tuition and basic miscellaneous fees throughout the program*"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Free use of textbooks"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- One-time free two(2) sets of school uniform and one (1) set of PE uniform"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Semestral stipend of Php 2,500"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grants for Salutatorians"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:text="- Free tuition and basic miscellaneous fees for one (1) semester"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partial Scholarship Grants for Entering Freshmen"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scholarships_grades1"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/grades1"
+                android:layout_marginBottom="-50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Partial Scholarship Grants for Transferees of Equivalent Program***"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scholarships_grades2"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/grades2"
+                android:layout_marginBottom="-40dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Scholarship Grants***"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="230dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scholarships_grades3"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/grades3"
+                android:layout_marginBottom="-50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

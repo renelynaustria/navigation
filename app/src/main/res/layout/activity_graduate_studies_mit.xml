@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_mit"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master in Information Technology"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     Master in Information Technology allows students to apply IT Theories and principles that address real world business opportunities and challenges. Under the guidance of competent practitioner faculty, the students are given sufficient grounding in theory and practice. The course has been designed to make graduates effective professionals. Areas of expertise are systems integration, systems administration, systems planning, systems implementation, and other activities that maintain the integrity and proper functionality of a system and its components."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The curriculum is integrally designed to produce graduates who shall be prepared to excel in positions that involve providing IT solutions. These roles include those of project manager, systems architect, information architect, process analyst, and technology architect. Graduates shall be ready to function in Information Technology positions with the competency, skills, and attitudes necessary for success in the workplace. The curriculum provides students the opportunity for continued career growth and life-long learning as IT professionals."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The students entering this degree program should have had undergraduate or industry preparation that would have exposed them to programming concepts and skills as well as the operating environment of a network system."
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

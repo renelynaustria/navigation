@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.AboutTip_Administration"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administration"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:paddingLeft="55dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Board of Trustees"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chairman"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Teresita U. Quirino"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-200dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice Chairman"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elizabeth Quirino-Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-200dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Treasurer"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Demetrio U. Quirino III"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-200dp"
+                    android:paddingLeft="24dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assistant Treasurer"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Angelo Q. Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-200dp"
+                    android:paddingLeft="68dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trustee"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Angel C. Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-200dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="Board Oversight"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="9dp"
+                    android:text="Officer for Cooperate"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="Social Responsibility"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-193dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Antonio U. Quirino"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-46dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trustee"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alicia V. Napud"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-199dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Academics and Management Committee / Executive Management Committee"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="President"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elizabeth Quirino-Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-240dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Executive Vice President"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Angel C. Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-175dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Senior Vice President"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Angelo Q. Lahoz"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-185dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quality Management"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="And Planning"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-170dp"
+                    android:paddingLeft="13dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jemuel C. Castillio"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-50dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Academic Affairs"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cynthia C. Llanes"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-10dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finance and"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="Administration"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-108dp"
+                    android:paddingLeft="13dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alicia V. Napud"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-20dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Administration and"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="and Student Services"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-160dp"
+                    android:paddingLeft="13dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elizabeth R. Pader"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-45dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Human Resources"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cynthia S. Tayao"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-15dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="30dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vice President for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strategic Initiatives"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rosalinda P."
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="65dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-235dp"
+                    android:layout_marginTop="45dp"
+                    android:paddingLeft="60dp"
+                    android:text="Valdepeña"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assistant Vice President"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="for Quality Management"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="and Planning"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-195dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Conrado V. Navalta"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-55dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="65dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Academics Affairs / Student Affairs / Administration"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director, Career"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Frank D. Alejandrino"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director for Research"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="concurrent Industry"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Linkages Coordinator"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-160dp"
+                    android:paddingLeft="13dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="(Consultant)"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-180dp"
+                    android:paddingLeft="13dp"
+                    android:layout_marginTop="90dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Celso B. Co"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-3dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director, of"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Libraries"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-350dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Maribel A. Estepa"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director for"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Physical Plant"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="Management"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-116dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="65dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Edgardo P. Perez"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-40dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="45dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Research Consultant"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Romulita C. Alto"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-185dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Research Consultant"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Herman D."
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-145dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="0dp"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mendoza"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-250dp"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Professional Electrical "
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Engineer/Consultant"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <!--<TextView
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="Consultant"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-116dp"
+                    android:paddingLeft="9dp"
+                    android:layout_marginTop="65dp"
+                    />-->
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cesar S. Bravo"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-20dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar "
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="John Pete G. Sarabia"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-250dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shipboard Training"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Officer"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ryan P. Oafericua"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="70dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Head, Corporate "
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Accounting Office"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Shiree Alcantara"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="-10dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Head, Chemistry "
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Laboratory"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lorraine A. Carrillo"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chief Information"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Technology Officer"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Allan D. Go"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Head, Financial"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="35dp"
+                    android:paddingLeft="9dp"
+                    android:text="Management Services /"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-190dp"
+                    android:layout_marginTop="60dp"
+                    android:paddingLeft="9dp"
+                    android:text="Concurrent Internal"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-155dp"
+                    android:layout_marginTop="80dp"
+                    android:paddingLeft="9dp"
+                    android:text="Auditor"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="35dp"
+                    android:paddingLeft="76dp"
+                    android:text="Esperanza B."
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-170dp"
+                    android:layout_marginTop="60dp"
+                    android:paddingLeft="76dp"
+                    android:text="Lagamayo"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Chief Librarian"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-245dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="76dp"
+                    android:text="Sonny Boy T. Manalo"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Head, Purchasing"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingLeft="9dp"
+                    android:text="Office"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Elizabeth S. Novilla"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:paddingLeft="76dp"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

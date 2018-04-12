@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_mis"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master in Information Systems"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     Master’s degree in Information Systems at T.I.P. is developed to give the students strong foundation both in theories and applications needed in satisfying industry-desired competency in the field of Information Systems. MIS students will be able to experience unified approach in acquiring the technical knowledge and skills in addressing and solving organizational or business-related challenges and problems. T.I.P. has lined-up the most qualified master’s and doctorate degree holder professors of the institution."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The curriculum is designed in such a way that the students will develop a balanced mastery in business and technology to deal with the ever-growing and becoming complex information systems. The courses will directly link the learnings of the students to the real world organizational and business scenario, which they can apply to their current and future workplaces as IT professionals and administrators. The curriculum integrates elements like software applications, business laws and ethics, management, decision making, and other technology and business components, which will enable the students in running today’s business. The curriculum also intends for the students or professionals to be technologically up-to-date by offering them specializations which are essential for business administration, communication, and decision support. At the terminal part of their study, students are required to produce their independent study which is expected to be with relevant impact to the IS industry."
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

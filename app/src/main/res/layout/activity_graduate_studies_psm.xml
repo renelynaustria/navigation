@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_psm"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professional Science Master’s Degree in Construction Management"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The PSM Degree in Construction Management program is composed of 48 credit units designed to provide students with a combination of science and engineering courses in construction management and professional courses in business, management and leadership. The program is intended to be taken in two years for full-time students and up to three years for part-time students."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The core courses provide the breadth of knowledge and skills that a construction manager needs. It also includes statistics, financial and marketing management courses, which give the students foundational knowledge of business/ marketing environment, statistical tools, money management, and administration of business organizations. In addition, it also focuses on the technical side of construction management from construction materials and methods, schedule and estimate, and contract management, and integrates professional courses like project management and leadership and ethics."
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

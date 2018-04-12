@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.AboutTip_AboutTheLogo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About the Logo"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logov1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="A fusion of technology and traditional education.
+The willingness to evolve in the face of new
+challenges, while maintaining the same passion
+and steadfastness that build an institution. An
+institution that imbues its students with Filipino
+values. An institution that transforms students
+into graduates who will contribute to the general
+welfare of society."
+                android:paddingLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logov2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="The new T.I.P. logo is dominated by lines and symmetry, both important elements in engineering. Behind every great structure is the right mix of lines placed in symmetry."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="The proportion between the gray lower block and the white upper block is 60:40 to subliminally reinforece the idea of stability. The base, which is colored black, represents a firm and strong foundation. The white dots in ur new T.I.P. acronym is our non-verbal way, in visual graphic form, to suggest to the reader to read TIP as T.I.P. and not as 'tip'"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

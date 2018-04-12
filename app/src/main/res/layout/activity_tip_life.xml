@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.TipLife"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="-13dp"
+            android:layout_marginLeft="-20dp"
+            android:src="@drawable/tiplife_header" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/btnadmission"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_admission"
+                android:layout_marginTop="-19dp"/>
+
+            <ImageView
+                android:id="@+id/btndirectories"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_directories"
+                android:layout_marginTop="-37dp"/>
+
+            <ImageView
+                android:id="@+id/btnscholarship"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_scholarships"
+                android:layout_marginTop="-37dp"/>
+
+            <ImageView
+                android:id="@+id/btncareercenter"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_careercenter"
+                android:layout_marginTop="-37dp"/>
+
+            <ImageView
+                android:id="@+id/btnaccreditation"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_accreditation"
+                android:layout_marginTop="-35dp"/>
+
+            <ImageView
+                android:id="@+id/btnfaq"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/tiplife_faq"
+                android:layout_marginTop="-35dp"
+                android:layout_marginBottom="-20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

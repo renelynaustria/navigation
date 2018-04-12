@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:src="@drawable/graduatestudies_header_01"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <ImageView
+                android:id="@+id/btndit"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_dit"
+                android:layout_marginTop="-17dp"/>
+
+            <ImageView
+                android:id="@+id/btndoe"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_doe"
+                android:layout_marginTop="-37dp"/>
+
+            <ImageView
+                android:id="@+id/btnme"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_me"
+                android:layout_marginTop="-37dp"/>
+
+            <ImageView
+                android:id="@+id/btnmis"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_mis"
+                android:layout_marginTop="-37dp"
+                />
+
+            <ImageView
+                android:id="@+id/btnmit"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_mit"
+                android:layout_marginTop="-37dp"
+                />
+
+            <ImageView
+                android:id="@+id/btnmscs"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_mscs"
+                android:layout_marginTop="-37dp"
+                />
+
+            <ImageView
+                android:id="@+id/btnpsm"
+                android:layout_width="361dp"
+                android:layout_height="152dp"
+                app:srcCompat="@drawable/graduateprograms_psm"
+                android:layout_marginTop="-37dp"
+                android:layout_marginBottom="-19dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

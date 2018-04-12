@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.TipLife_Directories"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directories"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:paddingLeft="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 1"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Tellering"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Career Center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Library"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 2"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Admission Office"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Student Accounting Office"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Marine Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="College of Business Education Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Mechanical Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Civil Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 3"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="ITSO"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Chemistry Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Chemistry and Physics Laboratories"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="NSTP Room"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 4"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Office of Students Affairs"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Guidance Office"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 5"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Computer Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Industrial Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Environmental and Sanitary Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Electrical Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Electronics Engineering Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="College of Information Technology Education Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Canteen"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 6"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Office of the President"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Clinic"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Chapel"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 8"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Engineering Library"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/yellow">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Building 9"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="College of Arts Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="College of Education Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Senior Highschool Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Math and Physics Department"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+                <View
+                    android:layout_width="340dp"
+                    android:layout_height="1dip"
+                    android:background="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

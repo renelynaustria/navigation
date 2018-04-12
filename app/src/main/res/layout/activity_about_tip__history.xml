@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.AboutTip_History"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="-13dp"
+            android:layout_marginLeft="-20dp"
+            android:src="@drawable/abouttip_history"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1962"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     On February 8, 1962, a group of educators headed by Engineer Demetrio A. Quirino Jr. established the TECHNOLOGICAL INSTITUTE OF THE PHILIPPINES as a private non-sector stock school"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="      T.I.P laid down its objectives based on the vision of its founder and chairman Demetrio A. Quirino Jr:"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="      1) to maintain a high standard of instruction;"
+                android:paddingLeft="23dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="      2) to bring within the reach of the masses the blessings of higher education; and"
+                android:paddingLeft="23dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="      3) to cooperate with the government in the implementation of its economic and social amelioration programs."
+                android:paddingLeft="23dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      The School had an initial enrollment of 2,400 which steadily increased, prompting the School to lease other builfings."
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1967"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="      In 1967, it set up its main site at 888 G.Puyat St., Quiapo, Manila. T.I.P then directed itself toward specialization in the field of technology"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1977"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      In 1977, it offered a two-year associate course in Marine Engineering."
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1980"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      In 1980, the Liberal Arts, Education and high school programs were phased out to make way for the school's new thrust."
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1981"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      In 1981 additional buildings were leased to accommodate the student population which already exceeded 23,000."
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1983"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      T.I.P. opened its Quezon City campus located at 20th Avenue, Cubao. T.I.P.QC through the years acquired adjacent properties including a frontage along Aurora Boulevard. The Quezon City campus has ten (10) main buildings spread out in the 3.3.-heactare site."
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Present"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:text="      Through the years, T.I.P. Manila also acquired ownership of two (2) major sites totaling 2.3 hectares namely, the P. Casal and the Arlegui properties. The P. Casal Campus has three (3) main buldings, one of which is a six-storey building. The Arlegui Campus, on the other hand, also has a six-storey building."
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_dit"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor in Information Technology"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="      The Doctor in Information Technology curriculum of T.I.P. aims to develop the needs of professionals who occupy or shall occupy positions of influence in the Information Technology community to perform fundamental and high-level research professional significance."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="      The program requires thirty (30) units of coursework, which can be completed in three (3) years, on a semester basis, by a full-time student. The curriculum includes eighteen (18) units of specialization coursework, and twelve (12) units of dissertation. During the first year, students are expected to finish eighteen (18) units of specialization courses including Industry Immersion. These courses are expected to prepare the students to engage in research undertakings related to the student’s choice of area of specialization. The last two (2) years of the program are dedicated to dissertation writing. The dissertation courses shall require presentation and publication in at least one (1) local refereed conference and journal, and one (1) international refereed conference and journal."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="      Prospective students are information technology professionals, academicians, and industry management level IT practitioners who have likewise completed a master’s degree in IT or any allied master’s degree program, with a substantial research component as demonstrated by a presentation of the research output in the national or international conference. Degrees under education and arts are strictly not considered relevant."
+
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

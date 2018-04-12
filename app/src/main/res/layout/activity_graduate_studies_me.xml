@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.GraduateStudies_me"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master of Engineering"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:paddingLeft="0dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     T.I.P.s’ masters degree program in Engineering aims to capacitate further students in the application of engineering theories and principles while addressing a more expanded context of several real-life business opportunities and challenges in the industry. The program offers advanced research and management cases that may enhance students’ skills apart from their technical expertise. The program shall be facilitated by qualified faculty-practitioners who are competent to provide the students sufficient grounds in theory and practice. It is designed to integrate the theories with project-based researches and actual modeling programs."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The areas of expertise shall include the following:"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in Civil Engineering (M.Eng. – CE)"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Construction Engineering and Management"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Structural Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in Computer Engineering (M.Eng. – CpE)"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Microelectronics Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="System and Network Administration"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Embedded Systems"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in
+Electrical Engineering (M.Eng. – EE)"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in Electronics Engineering (M.Eng. – ECE)"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Communications"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information and Computing Technologies"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in
+Industrial Engineering (M.Eng.- IE)"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Production Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organization and Decision Systems"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/yellow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Engineering with specialization in Mechanical Engineering (M.Eng.- ME) "
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Energy Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refrigeration and Air-conditioning"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power Plant Engineering"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="     The curriculum itself is integrally designed to produce professional graduates who will be equipped to fulfill the functions/roles of an “Expert” in managing project teams and provide scientific solutions to engineering-related projects. The curriculum has been conceived to provide the required competencies for the students to become professionals for continued career growth and lifelong learning."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:text="    It is expected that candidates entering this graduate degree program have completed their engineering undergraduate (bachelors’ degree) or any allied bachelor’s degree and have significant industry preparations that exposed them to related engineering concepts and skills as well as the actual functional environment."
+                android:layout_marginBottom="20dp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ortega.project.AboutTip_AboutThePresident">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About the President"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/abouttip_president"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Elizabeth Quirino-Lahoz"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="     Dr. Elizabeth Quirino-Lahoz is vice chairman of the Board of Trustees and the third president of the Technological Institute of the Philippines (T.I.P.), with campuses in Manila and Quezon City. She assumed the presidency in 2003. Dr. Lahoz succeeded Dr. Teresita U. Quirino, who succeeded Engr. Demetrio A. Quirino, Jr., T.I.P. founder and first T.I.P. president."
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="     Dr. Lahoz graduated Magna Cum Laude, AB Communication Arts, from Maryknoll College in 1973. She was also class valedictorian and Communication Arts area awardee. She completed her Master in Business Administration for Senior Executives and Professionals from the Ateneo de Manila University in 1994 and finished her Doctor of Philosophy in Education Major in Educational Administration from the University of the Philippines in 2006. Her dissertation,”Portrait of the Filipino as an Outstanding Private School Administrator” was adjudged the “Most Outstanding Dissertation” of the College of Education, University of the Philippines. She was a featured alumna in GURU: Distinguished Educators (UPEAA, 2010) by the University of the Philippines Education Alumni Association (UPEAA)."
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="     Dr. Lahoz serves in various professional and civic activities. She is a member of the Technical Committee for Educational Leadership and Foundations of the Commission on Higher Education (CHED), and member of the Board of Trustees and member of the Quality Assurance and Accreditation committee of the Philippine Association of Colleges and Universities (PACU). She is also a member of the Board of Trustees, the Executive Committee, and the Finance Committee of the Private Education Retirement Annuity Association (PERAA), and a member of the Pi Lambda Theta, an international honors society and professional association in education, Philippine Area Chapter."
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="     The Pi Lambda Theta, Philippine Area Chapter, awarded Dr. Lahoz the PLT Eminent Filipino Women Educators Award in recognition of 'her outstanding contribution to Philippine Education, Filipino teachers and learners.'"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="     Dr. Lahoz was also named as Outstanding CEO from the academe for the year 2015 by the Philippine Council of Deans and Educators in Business (PCDEB). The prestigious award is given every year to Presidents/CEOs of schools who have attained excellence and made a mark in the field of education. Dr. Lahoz was also recognized as one of Go Negosyo’s Inspiring Women Entrepreneurs of 2016, under the Large Enterprise Category. As second-generation T.I.P. administrator, Dr. Lahoz continues the legacy of the school’s founders, her parents, the real entrepreneurs, and the empowerment of the Filipino youth towards national development."
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

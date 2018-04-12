@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ortega.project.AboutTip_TipHymn"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/backbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:text="T.I.P. Hymn and T.I.P. Fight Song"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOU'LL BE IN MY HEART FOREVER"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music and Lyrics by Prudencio 'Dero' Pedereo Jr."
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="I"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginRight="7dp"
+                android:paddingLeft="13dp"
+                android:text="You sharpen my mind with knowledge and truth
+You fill up my hear with gladness and joy
+You lift up my life to heights I’ve never known
+You teach me, guide me, you inspire me"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="II"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginRight="7dp"
+                android:paddingLeft="13dp"
+                android:text="You bring out the best of what I can be
+You give me the strength to believe in me
+You’ve given me wings to fly above the rest
+And lead me on to victory"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="REFRAIN"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginRight="7dp"
+                android:paddingLeft="13dp"
+                android:text="You are my strength, my hope, my guiding light
+You’ve added values and meaning to my life
+Your teachings and caring I’ll always remember
+My teacher and friends I’ll always treasure
+I’ll cherish the good times we’ve spent together
+T.I.P., dear T.I.P.
+You’ll be in my heart forever"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="REPEAT REFRAIN"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="T.I.P.!"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="1dip"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WE'RE ON TOP OF THE WORLD"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music and Lyrics by Prudencio 'Dero' Pedereo Jr."
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="I"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:layout_marginRight="7dp"
+                android:text="Lift up your heart and hold your head up high"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:layout_marginRight="7dp"
+                android:text="We’re gonna win, we’re gonna fly
+We’re gonna reach our lofty dreams
+We’ve got the strength; we’ve got the mind"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="II"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginRight="7dp"
+                android:paddingLeft="13dp"
+                android:text="We’ve got the grit and the determination
+We’ve got the courage and the drive
+We will exceed all expectations
+We’re gonna take them by surprise"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="REFRAIN"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:layout_marginRight="7dp"
+                android:text="We’re on top of the world T.I.P.
+We’re the tip of the top of the world!
+We’re on top of the world T.I.P.
+We’re the tip of the top of the world!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="BRIDGE"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:layout_marginRight="7dp"
+                android:text="Together, we are invincible
+United we are strong
+We do our very best
+On top is where we belong
+"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:text="REPEAT Stanza II then REFRAIN"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:paddingLeft="13dp"
+                android:layout_marginBottom="20dp"
+                android:text="T.I.P., T.I.P.!"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
